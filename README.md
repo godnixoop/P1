@@ -1,20 +1,13 @@
 # P1
-#P2 calculator
+a = float(input("Enter a number: "))
  
- 
-a=float(input("Enter a number :"))
-c=input("Choose the operator to use   Multiply(*), Division(/), Addition(+), Substraction=(-)    :")
-b=float(input("Enter another number:"))
- 
- 
- 
-if c=="*":
-  print("The product of",a,"and",b, "is   :" ,a*b)
-elif c=="/":
-  print("The quotient of",a, "and",b, "is   :",a/b)
-elif c=="+":
-  print("The Sum of",a ,"and",b ,"is   :",a+b)
-elif c=="-":
-  print("The Difference between",a ,"and",b ,"is   :",a-b)
-else:
-  print("Enter a valid input.")
+if a >= 90 and a <= 100:
+    print("Your grade is: A")
+elif a>=80 and a<=90:
+    print("Your grade is: B")
+elif a>=70 and a<=80:
+    print("Your grade is: C")
+elif a>=60 and a<=70:
+    print("Your grade is: D")
+else :
+    print("Your Grade is E")!
